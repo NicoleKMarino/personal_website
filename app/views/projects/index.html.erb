@@ -1,0 +1,17 @@
+<br>
+<br>
+<h1>Projects</h1>
+<hr class="square-light">
+<br>
+<div class="container">
+ <%@projects.each do |project| %>
+          <div class="col-offset-1 col-xs-6 project-container">
+              <h2><%=project.name%></h2>
+              <%=link_to image_tag(project.image, class: "project-image"), project.production_link%>
+              <div class="project-description">
+              <div class="project-p"><%=project.description%></div>
+            </div>
+            </div>
+            <% end %>
+  </div>
+</div>

@@ -1,0 +1,100 @@
+.home-div1{
+  background-color: #e3c0ad;
+  height:100%;
+  position:absolute;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  text-align:center;
+  font-size: 15px;
+}
+
+.home-div2{
+  position:absolute;
+  background-color: #e1b6b6;
+  height:100%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+  overflow: hidden;
+}
+
+
+.home-div3{
+  padding-top: 20px;
+  text-shadow: 1px 1px 1px #000;
+  background-color: #907676;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-image{
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+  max-height: 300px;
+  max-width: 300px;
+
+}
+
+
+
+hr.square-light,
+hr.square-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.square-light:after,
+hr.square-primary:after {
+  content: "\f005";
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.square-light {
+  border-color: white;
+}
+hr.square-light:after {
+  background-color:#e1c9c9;
+  color: white;
+}
+hr.square-primary {
+  border-color: #2C3E50;
+}
+hr.square-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
+
+.footer-home{
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+}
+
+.icon{
+  padding-top: 10px;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.half{
+  display: inline-block;
+}
+
+.home-ul{
+  color:white;
+  text-align: center;
+  font-size: 16px;
+}
+
+.home-p{
+  color:#42373b;
+}

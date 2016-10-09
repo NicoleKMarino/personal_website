@@ -1,0 +1,35 @@
+.project-container{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 2rem;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px #ddd;
+  text-align: center;
+}
+
+.project-image{
+  height:350px;
+  width:100%;
+}
+
+.project-description{
+  list-style: none;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 2rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  height:250px;
+  width:500px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.project-p{
+  color:#42373b;
+  font-size: 20px;
+}
