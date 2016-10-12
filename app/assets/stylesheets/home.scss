@@ -87,6 +87,7 @@ hr.square-primary:after {
 
 .half{
   display: inline-block;
+  max-height:420px;
 }
 
 .home-ul{
@@ -97,4 +98,9 @@ hr.square-primary:after {
 
 .home-p{
   color:#42373b;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
