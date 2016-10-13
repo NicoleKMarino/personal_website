@@ -15,3 +15,9 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+#Don't commit app.yml
+/app.yml
+
+#Don't commit assets
+/public/assets
