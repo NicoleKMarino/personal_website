@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: personal_wensite_production
-  username: personal_wensite
-  password: <%= ENV['PERSONAL_WENSITE_DATABASE_PASSWORD'] %>
+  username: <%= ENV.fetch("DATABASE_USER") %>
+  password: <%= ENV.fetch("DATABASE_PASSWORD") %>
+  host: 130.211.171.68
+  database: <%= ENV.fetch("DATABASE_NAME") %>

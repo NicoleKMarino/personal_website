@@ -14,7 +14,7 @@
 
 .modal-content {
   font-style: Tahoma, Verdana, Segoe, sans-serif;
-    text-align: left;
+    text-align:center;
     width:100%;
     margin:40px auto;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
@@ -43,18 +43,9 @@
 }
 
 .btn-resume {
-  margin-top:13px;
-  background-color: white;
-  color:black;
-  border-radius: 13px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+  cursor: pointer;
 }
 
 .btn-resume:hover {
-  background-color:#907676;
-  color: #FFF;
-  border-radius: 13px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+  cursor: pointer;
 }
