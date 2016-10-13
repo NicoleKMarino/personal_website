@@ -17,7 +17,7 @@
 .byebug_history
 
 #Don't commit app.yml
-/app.yml
+/app.yaml
 
 #Don't commit assets
 /public/assets
