@@ -1,6 +1,11 @@
 class Seed
   def self.start
+    clear_old_data
    create_projects
+  end
+
+  def self.clear_old_data
+    Project.delete_all
   end
 
   def self.create_projects
@@ -13,7 +18,7 @@ based on a specific location, company, or salary range. Allows different levels 
 on multi-tenancy authentication. Able to sign in via twitter accounts, and sends client emails verifications.
 Functionality developed using Javascript, Ruby on Rails, PostgreSQL, Bcrypt, and Bootstrap.")
     Project.create(name:"Westeros Outfitters", github_link: "https://github.com/NicoleKMarino/westeros_outfitters", production_link:"https://westerosoutfitters.herokuapp.com/", image: "westeros.png", description: "A mock E-Commerce site. Allows users to purchase itesma and check out with swipe. Sends confirmation emails for purchasing and signing up. Functionality built with Ruby on Rails, practices CRUD functionality")
-    Project.create(name:"Sales Engine", github_link: "https://github.com/NicoleKMarino/rales_engine", image: "ralesengine.png", description:"Sales Engine was a project done by me and one other developer. RESTful API to serve up sales data in
+    Project.create(name:"Sales Engine", github_link: "https://github.com/NicoleKMarino/rales_engine", production_link:"https://github.com/NicoleKMarino/rales_engine",image: "ralesengine.png", description:"Sales Engine was a project done by me and one other developer. RESTful API to serve up sales data in
 JSON format, using Ruby on Rails, ActiveRecord, SQL queries, and Jbuilder. Instructions on how to
 retrieve the data and to see the spec it was based off of can be found on the github.")
   end

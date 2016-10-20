@@ -1,13 +1,16 @@
 .project-container{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  height:700px;
+  position:absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align:center;
   font-size: 2rem;
   vertical-align: top;
   border: 1px solid #ddd;
   box-shadow: 0 0 5px #ddd;
   text-align: center;
+  overflow: auto;
+
 }
 
 .project-image{
@@ -16,15 +19,12 @@
 }
 
 .project-description{
+  margin-top: 50px;
   list-style: none;
-  padding: 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
   font-size: 2rem;
   vertical-align: top;
   box-sizing: border-box;
-  height:250px;
-  width:500px;
+
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
