@@ -11,13 +11,10 @@
 }
 
 .home-div2{
-  position:absolute;
   background-color: #e1b6b6;
   height:100%;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 40px;
   overflow: hidden;
+  text-align: center;
 }
 
 
@@ -52,7 +49,7 @@ hr.square-primary {
 }
 hr.square-light:after,
 hr.square-primary:after {
-  content: "\f005";
+  content: "♦";
   display: inline-block;
   position: relative;
   top: -0.8em;
@@ -61,9 +58,9 @@ hr.square-primary:after {
 }
 hr.square-light {
   border-color: white;
+  text-shadow: 1px 1px 1px #000;
 }
 hr.square-light:after {
-  background-color:#e1c9c9;
   color: white;
 }
 hr.square-primary {
@@ -92,8 +89,8 @@ hr.square-primary:after {
 
 .home-ul{
   color:white;
-  text-align: center;
   font-size: 16px;
+  text-align: center;
 }
 
 .home-p{
